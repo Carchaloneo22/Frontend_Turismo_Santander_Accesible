@@ -1,0 +1,26 @@
+.layout {
+  min-height: 100vh; /* ocupa toda la altura de la ventana */
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* header · main(crece) · footer */
+}
+.header {
+  position: sticky; /* la barra se pega arriba al hacer scroll */
+  top: 0;
+  z-index: 100;
+}
+.skipLink {
+  position: absolute;
+  left: 12px;
+  top: -60px;
+  z-index: 200;
+  background: var(--purple);
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-family: var(--font-head);
+  font-weight: 600;
+  transition: top 0.2s;
+}
+.skipLink:focus {
+  top: 12px;
+} /* aparece solo al tabular */
