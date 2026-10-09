@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "id_ciudad": "68001",
+    "ciudad": "BUCARAMANGA",
+    "nombre": "Parque San Pío",
+    "categoria": "Parques",
+    "img_360_url": "https://storage.googleapis.com/bucket-principal-proyecto-gobernacion/imagenes-360/sitios/Bucaramanga/Parques/Bga-parque-san-pio.webp",
+    "descripcion": "Amplio parque recreativo en el corazón de Bucaramanga, ideal para familias.",
+    "latitud": null,
+    "longitud": null,
+    "orden": 1
+  },
+  {
+    "id": 2,
+    "id_ciudad": "68001",
+    "ciudad": "BUCARAMANGA",
+    "nombre": "Parque La Flora",
+    "categoria": "Parques",
+    "img_360_url": "https://storage.googleapis.com/bucket-principal-proyecto-gobernacion/imagenes-360/sitios/Bucaramanga/Parques/bucaramanga-parque-la-flora.webp",
+    "descripcion": "Parque emblemático rodeado de naturaleza urbana en Bucaramanga.",
+    "latitud": null,
+    "longitud": null,
+    "orden": 2
+  },
+  {
+    "id": 3,
+    "id_ciudad": "68079",
+    "ciudad": "BARICHARA",
+    "nombre": "Camino Real de Barichara",
+    "categoria": "Parques",
+    "img_360_url": "https://storage.googleapis.com/bucket-principal-proyecto-gobernacion/imagenes-360/sitios/Barichara/Parques/Camino%20Real%20de%20Barichara.webp",
+    "descripcion": "Sendero empedrado colonial que conecta Barichara con Guane, patrimonio histórico.",
+    "latitud": null,
+    "longitud": null,
+    "orden": 1
+  },
+  {
+    "id": 4,
+    "id_ciudad": "68079",
+    "ciudad": "BARICHARA",
+    "nombre": "Concha Acústica de Barichara",
+    "categoria": "Parques",
+    "img_360_url": "https://storage.googleapis.com/bucket-principal-proyecto-gobernacion/imagenes-360/sitios/Barichara/Parques/concha%20acustica%20barichara.webp",
+    "descripcion": "Espacio cultural al aire libre para eventos y conciertos en el pueblo más lindo de Colombia.",
+    "latitud": null,
+    "longitud": null,
+    "orden": 2
+  },
+  {
+    "id": 5,
+    "id_ciudad": "68307",
+    "ciudad": "GIRÓN",
+    "nombre": "Parque Principal de Girón",
+    "categoria": "Parques",
+    "img_360_url": "https://storage.googleapis.com/bucket-principal-proyecto-gobernacion/imagenes-360/sitios/Giron/Parques/Giron-parque-principal-giron.webp",
+    "descripcion": "Plaza central del pueblo patrimonio con arquitectura colonial blanca.",
+    "latitud": null,
+    "longitud": null,
+    "orden": 1
+  },
+  {
+    "id": 6,
+    "id_ciudad": "68307",
+    "ciudad": "GIRÓN",
+    "nombre": "Parque Peralta",
+    "categoria": "Parques",
+    "img_360_url": "https://storage.googleapis.com/bucket-principal-proyecto-gobernacion/imagenes-360/sitios/Giron/Parques/giron-parque-peralta.webp",
+    "descripcion": "Parque histórico con fuente y callejones empedrados en Girón.",
+    "latitud": null,
+    "longitud": null,
+    "orden": 2
+  },
+  {
+    "id": 7,
+    "id_ciudad": "68547",
+    "ciudad": "PIEDECUESTA",
+    "nombre": "Cerro Virgen de la Cantera",
+    "categoria": "Parques",
+    "img_360_url": "https://storage.googleapis.com/bucket-principal-proyecto-gobernacion/imagenes-360/sitios/Piedecuesta/Parques/Piedecuesta-Cerro%20Virgen%20de%20la%20cantera.webp",
+    "descripcion": "Mirador natural con vista panorámica de Piedecuesta y el área metropolitana.",
+    "latitud": null,
+    "longitud": null,
+    "orden": 1
+  },
+  {
+    "id": 8,
+    "id_ciudad": "68547",
+    "ciudad": "PIEDECUESTA",
+    "nombre": "Parque Principal de Los Santos",
+    "categoria": "Parques",
+    "img_360_url": "https://storage.googleapis.com/bucket-principal-proyecto-gobernacion/imagenes-360/sitios/Piedecuesta/Parques/parque%20principal%20de%20los%20santos.webp",
+    "descripcion": "Plaza central con arquitectura tradicional santandereana.",
+    "latitud": null,
+    "longitud": null,
+    "orden": 2
+  }
+]

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Recursos estáticos — no indexar
+Disallow: /assets/
+Disallow: /video/sign/
+
+# Sitemap
+Sitemap: https://santander-accesible.co/sitemap.xml

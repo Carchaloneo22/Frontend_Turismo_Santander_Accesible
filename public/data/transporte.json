@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "origen": "Bucaramanga",
+    "destino": "Barichara",
+    "fecha_salida": "2026-08-01",
+    "hora_salida": "07:30",
+    "precio": 35000,
+    "descripcion": "Van adaptada con rampa y espacio para silla de ruedas. Salida desde el terminal.",
+    "disponible": true,
+    "img_url": "https://picsum.photos/seed/van-santander/800/520",
+    "empresa": "Transporte Incluyente Santander"
+  },
+  {
+    "id": 2,
+    "origen": "Bucaramanga",
+    "destino": "San Gil",
+    "fecha_salida": "2026-08-01",
+    "hora_salida": "09:00",
+    "precio": 30000,
+    "descripcion": "Servicio con asientos preferenciales y asistencia al abordaje.",
+    "disponible": true,
+    "img_url": "https://picsum.photos/seed/bus-sangil/800/520",
+    "empresa": "Cotrasangil Accesible"
+  },
+  {
+    "id": 3,
+    "origen": "San Gil",
+    "destino": "El Socorro",
+    "fecha_salida": "2026-08-02",
+    "hora_salida": "14:00",
+    "precio": 12000,
+    "descripcion": "Ruta corta con vehículo adaptado; requiere reserva previa.",
+    "disponible": false,
+    "img_url": "https://picsum.photos/seed/ruta-comunera/800/520",
+    "empresa": "Rutas Comuneras"
+  }
+]

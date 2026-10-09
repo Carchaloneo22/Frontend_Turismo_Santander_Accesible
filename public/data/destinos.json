@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "id_ciudad": "68079",
+    "ciudad": "BARICHARA",
+    "titulo": "Barichara",
+    "descripcion": "El pueblo más lindo de Colombia, con caminos del Fonce adaptados y hospedajes inclusivos.",
+    "img_url": "https://picsum.photos/seed/destino-barichara/800/560",
+    "sign_url": null,
+    "badge": "Popular",
+    "orden": 1,
+    "activo": true,
+    "slug": "barichara"
+  },
+  {
+    "id": 2,
+    "id_ciudad": "68773",
+    "ciudad": "SOCORRO",
+    "titulo": "Socorro",
+    "descripcion": "Cuna de la independencia, con calles empedradas y arquitectura colonial.",
+    "img_url": "https://picsum.photos/seed/destino-socorro/800/560",
+    "sign_url": null,
+    "badge": null,
+    "orden": 2,
+    "activo": true,
+    "slug": "socorro"
+  },
+  {
+    "id": 3,
+    "id_ciudad": "68307",
+    "ciudad": "GIRÓN",
+    "titulo": "Girón",
+    "descripcion": "Pueblo patrimonio de casas blancas y callejones históricos.",
+    "img_url": "https://picsum.photos/seed/destino-giron/800/560",
+    "sign_url": null,
+    "badge": "Nuevo",
+    "orden": 3,
+    "activo": true,
+    "slug": "giron"
+  },
+  {
+    "id": 4,
+    "id_ciudad": "68861",
+    "ciudad": "VÉLEZ",
+    "titulo": "Vélez",
+    "descripcion": "Capital folclórica, tierra del bocadillo y la guabina.",
+    "img_url": "https://picsum.photos/seed/destino-velez/800/560",
+    "sign_url": null,
+    "badge": null,
+    "orden": 4,
+    "activo": true,
+    "slug": "velez"
+  },
+  {
+    "id": 5,
+    "id_ciudad": "68468",
+    "ciudad": "LOS SANTOS",
+    "titulo": "Los Santos",
+    "descripcion": "Mirador del Cañón del Chicamocha con experiencias accesibles.",
+    "img_url": "https://picsum.photos/seed/destino-los-santos/800/560",
+    "sign_url": null,
+    "badge": null,
+    "orden": 5,
+    "activo": true,
+    "slug": "los-santos"
+  },
+  {
+    "id": 6,
+    "id_ciudad": "68001",
+    "ciudad": "BUCARAMANGA",
+    "titulo": "Bucaramanga",
+    "descripcion": "La ciudad bonita. Capital santandereana con parques, gastronomía y cultura.",
+    "img_url": "https://picsum.photos/seed/destino-bucaramanga/800/560",
+    "sign_url": null,
+    "badge": "Capital",
+    "orden": 6,
+    "activo": true,
+    "slug": "bucaramanga"
+  }
+]

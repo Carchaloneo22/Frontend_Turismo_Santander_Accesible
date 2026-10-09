@@ -1,0 +1,29 @@
+# Cabeceras que Cloudflare Pages aplica al sitio desplegado.
+# (Vite copia este archivo a dist/ y Cloudflare lo lee desde ahí.)
+
+# ── Caché ──
+# Los assets llevan hash en el nombre (index-a1b2c3.js), así que si cambia el
+# contenido cambia el nombre: se pueden cachear para siempre sin riesgo.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# El HTML NO se cachea duro: así un despliegue nuevo se ve al instante y no
+# queda una versión vieja pegada en el navegador o el CDN.
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# ── Seguridad + permisos del metaverso ──
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  # HSTS: fuerza HTTPS durante 1 año (con subdominios) y habilita precarga.
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  # CSP: política pragmática que no rompe la app (Vite empaqueta sin inline JS;
+  # los estilos en línea de React y Google Fonts necesitan 'unsafe-inline' en
+  # style-src; MapLibre usa workers desde blob:; imágenes de mapas/almacenamiento
+  # llegan por https). Si algún recurso se bloquea, ajustar la directiva concreta.
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: blob: https:; media-src 'self' https:; connect-src 'self' https:; worker-src 'self' blob:; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'
+  # WebXR y sensores de orientación: el metaverso los necesita para el modo VR
+  # y para "mirar alrededor" en móvil. Se habilitan solo para el propio sitio.
+  Permissions-Policy: xr-spatial-tracking=(self), accelerometer=(self), gyroscope=(self), magnetometer=(self)

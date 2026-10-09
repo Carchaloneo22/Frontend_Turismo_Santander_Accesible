@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "nombre": "Posada Piedra de Luna",
+    "tipo": "Posada",
+    "id_ciudad": "barichara",
+    "ciudad": "Barichara",
+    "descripcion": "Posada colonial con habitación en primer piso adaptada, rampa de acceso y patio interior.",
+    "precio_noche": 220000,
+    "accesibilidad": "Habitación accesible, baño adaptado con barras, sin escalones al acceso",
+    "capacidad_max": 3,
+    "disponible": true,
+    "img_url": "https://picsum.photos/seed/posada-piedra/800/520",
+    "servicios": [
+      {
+        "id": 1,
+        "nombre": "Wi-Fi"
+      },
+      {
+        "id": 2,
+        "nombre": "Desayuno"
+      },
+      {
+        "id": 3,
+        "nombre": "Baño adaptado"
+      }
+    ],
+    "servicios_txt": "Wi-Fi, Desayuno, Baño adaptado",
+    "empresa": "Posada Piedra de Luna"
+  },
+  {
+    "id": 2,
+    "nombre": "Hotel Río Fonce",
+    "tipo": "Hotel",
+    "id_ciudad": "san-gil",
+    "ciudad": "San Gil",
+    "descripcion": "Hotel junto al río con ascensor, habitaciones accesibles y señalización en alto contraste.",
+    "precio_noche": 190000,
+    "accesibilidad": "Ascensor, habitación y baño adaptados, señalización accesible",
+    "capacidad_max": 4,
+    "disponible": true,
+    "img_url": "https://picsum.photos/seed/hotel-rio/800/520",
+    "servicios": [
+      {
+        "id": 1,
+        "nombre": "Wi-Fi"
+      },
+      {
+        "id": 4,
+        "nombre": "Ascensor"
+      },
+      {
+        "id": 5,
+        "nombre": "Parqueadero"
+      }
+    ],
+    "servicios_txt": "Wi-Fi, Ascensor, Parqueadero",
+    "empresa": "Hotel Río Fonce"
+  },
+  {
+    "id": 3,
+    "nombre": "Apartahotel Cabecera",
+    "tipo": "Apartahotel",
+    "id_ciudad": "bucaramanga",
+    "ciudad": "Bucaramanga",
+    "descripcion": "Apartamentos en el sector Cabecera, totalmente accesibles y cerca de parques.",
+    "precio_noche": 260000,
+    "accesibilidad": "Totalmente accesible, ascensor, baño adaptado",
+    "capacidad_max": 5,
+    "disponible": true,
+    "img_url": "https://picsum.photos/seed/apartahotel-cabecera/800/520",
+    "servicios": [
+      {
+        "id": 1,
+        "nombre": "Wi-Fi"
+      },
+      {
+        "id": 4,
+        "nombre": "Ascensor"
+      },
+      {
+        "id": 6,
+        "nombre": "Cocina equipada"
+      }
+    ],
+    "servicios_txt": "Wi-Fi, Ascensor, Cocina equipada",
+    "empresa": "Apartahotel Cabecera"
+  }
+]

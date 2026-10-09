@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "autor": "María Gómez",
+    "contenido": "Viajé con mi mamá en silla de ruedas y por primera vez pudimos recorrer Barichara sin angustias. El transporte adaptado y la guía fueron excelentes.",
+    "calificacion": 5,
+    "likes": 34,
+    "ya_dio_like": false,
+    "fecha": "2026-06-18"
+  },
+  {
+    "id": 2,
+    "autor": "Carlos Rueda",
+    "contenido": "La guía en lengua de señas hizo toda la diferencia para mí. Sentí que el plan estaba pensado de verdad para personas sordas.",
+    "calificacion": 5,
+    "likes": 27,
+    "ya_dio_like": false,
+    "fecha": "2026-05-30"
+  },
+  {
+    "id": 3,
+    "autor": "Laura Jaimes",
+    "contenido": "Reservé un hospedaje accesible en San Gil y todo estuvo tal cual lo describían: rampas, baño adaptado y personal muy atento.",
+    "calificacion": 4,
+    "likes": 19,
+    "ya_dio_like": false,
+    "fecha": "2026-05-12"
+  },
+  {
+    "id": 4,
+    "autor": "Andrés Peña",
+    "contenido": "Me encantó el recorrido 360° antes de viajar; pude planear la ruta con mi familia. Muy buena iniciativa de la Gobernación.",
+    "calificacion": 5,
+    "likes": 22,
+    "ya_dio_like": false,
+    "fecha": "2026-04-27"
+  }
+]

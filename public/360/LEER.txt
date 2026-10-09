@@ -1,0 +1,11 @@
+Coloca aquí 3 fotos panorámicas equirectangulares 360° (CC0 de prueba) con estos nombres:
+
+  1.jpg   -> Barichara
+  2.jpg   -> Cañón del Chicamocha
+  3.jpg   -> San Gil
+
+Fuente recomendada (todo CC0): https://polyhaven.com  (descarga el "Tonemapped JPG" de cualquier HDRI)
+Cualquier imagen equirectangular (proporción 2:1) sirve para probar.
+
+Mientras no existan, el metaverso muestra una esfera oscura (no crashea) gracias al PhotosphereBoundary.
+Estas imágenes de prueba luego se reemplazan por las 360° reales de Santander desde el storage del backend.

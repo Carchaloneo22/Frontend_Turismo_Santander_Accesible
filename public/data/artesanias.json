@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bolso tejido en fique",
+    "descripcion": "Bolso artesanal elaborado a mano en fique por artesanas de Curití.",
+    "precio": 85000,
+    "stock": 12,
+    "categoria": "Textiles",
+    "ciudad": "Curití",
+    "departamento": "Santander",
+    "img_url": "https://picsum.photos/seed/fique-bolso/800/520",
+    "artesano": "Asociación de Tejedoras de Curití"
+  },
+  {
+    "id": 2,
+    "nombre": "Sombrero en palma de iraca",
+    "descripcion": "Sombrero tradicional tejido en palma, fresco y liviano.",
+    "precio": 60000,
+    "stock": 20,
+    "categoria": "Accesorios",
+    "ciudad": "Barichara",
+    "departamento": "Santander",
+    "img_url": "https://picsum.photos/seed/sombrero-iraca/800/520",
+    "artesano": "Taller Piedra y Palma"
+  },
+  {
+    "id": 3,
+    "nombre": "Vasija en barro cocido",
+    "descripcion": "Cerámica utilitaria hecha con técnicas tradicionales de la región.",
+    "precio": 45000,
+    "stock": 8,
+    "categoria": "Cerámica",
+    "ciudad": "El Socorro",
+    "departamento": "Santander",
+    "img_url": "https://picsum.photos/seed/ceramica-barro/800/520",
+    "artesano": "Alfarería Comunera"
+  },
+  {
+    "id": 4,
+    "nombre": "Hormigas culonas tostadas (250 g)",
+    "descripcion": "Delicia típica santandereana, tostadas artesanalmente.",
+    "precio": 40000,
+    "stock": 30,
+    "categoria": "Gastronomía",
+    "ciudad": "San Gil",
+    "departamento": "Santander",
+    "img_url": "https://picsum.photos/seed/hormigas-culonas/800/520",
+    "artesano": "Sabores de Santander"
+  }
+]

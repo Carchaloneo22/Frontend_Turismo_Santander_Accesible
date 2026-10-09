@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "nombre": "Parapente en la Mesa de Ruitoque",
+    "modalidad": "aventura",
+    "municipio": "Piedecuesta",
+    "descripcion": "Vuela sobre el valle con operadores certificados y equipo adaptado bajo reserva.",
+    "img_url": "https://picsum.photos/seed/exp-parapente/800/560"
+  },
+  {
+    "id": 2,
+    "nombre": "Rafting en el río Fonce",
+    "modalidad": "aventura",
+    "municipio": "San Gil",
+    "descripcion": "Descenso guiado por rápidos, con briefing accesible y chalecos para todas las tallas.",
+    "img_url": "https://picsum.photos/seed/exp-rafting/800/560"
+  },
+  {
+    "id": 3,
+    "nombre": "Cañón del Chicamocha",
+    "modalidad": "naturaleza",
+    "municipio": "Los Santos",
+    "descripcion": "Miradores accesibles del cañón y teleférico con acceso para silla de ruedas.",
+    "img_url": "https://picsum.photos/seed/exp-chicamocha/800/560"
+  },
+  {
+    "id": 4,
+    "nombre": "Cascadas de Juan Curí",
+    "modalidad": "naturaleza",
+    "municipio": "Charalá",
+    "descripcion": "Sendero a la cascada con tramos de piso firme y zonas de descanso.",
+    "img_url": "https://picsum.photos/seed/exp-juancuri/800/560"
+  },
+  {
+    "id": 5,
+    "nombre": "Parque El Gallineral",
+    "modalidad": "naturaleza",
+    "municipio": "San Gil",
+    "descripcion": "Bosque de niguas sobre el río, con caminos planos y señalización clara.",
+    "img_url": "https://picsum.photos/seed/exp-gallineral/800/560"
+  },
+  {
+    "id": 6,
+    "nombre": "Ruta de la hormiga culona",
+    "modalidad": "gastronomico",
+    "municipio": "San Gil",
+    "descripcion": "Degustación del manjar típico santandereano y su historia guanentina.",
+    "img_url": "https://picsum.photos/seed/exp-hormiga/800/560"
+  },
+  {
+    "id": 7,
+    "nombre": "Mercado campesino de Bucaramanga",
+    "modalidad": "gastronomico",
+    "municipio": "Bucaramanga",
+    "descripcion": "Sabores locales, cabro, mute y arepa santandereana con recorrido accesible.",
+    "img_url": "https://picsum.photos/seed/exp-mercado/800/560"
+  },
+  {
+    "id": 8,
+    "nombre": "Termales y bienestar en Ruitoque",
+    "modalidad": "salud",
+    "municipio": "Floridablanca",
+    "descripcion": "Spa y aguas de relajación con instalaciones adaptadas y atención inclusiva.",
+    "img_url": "https://picsum.photos/seed/exp-termales/800/560"
+  },
+  {
+    "id": 9,
+    "nombre": "Retiro de yoga en Barichara",
+    "modalidad": "salud",
+    "municipio": "Barichara",
+    "descripcion": "Bienestar y descanso en el pueblo de piedra, con sesiones para todo nivel.",
+    "img_url": "https://picsum.photos/seed/exp-yoga/800/560"
+  },
+  {
+    "id": 10,
+    "nombre": "Camino Real Barichara–Guane",
+    "modalidad": "cultural",
+    "municipio": "Barichara",
+    "descripcion": "Sendero histórico empedrado entre dos pueblos patrimonio, con guía cultural.",
+    "img_url": "https://picsum.photos/seed/exp-caminoreal/800/560"
+  },
+  {
+    "id": 11,
+    "nombre": "Pueblo patrimonio de Girón",
+    "modalidad": "cultural",
+    "municipio": "Girón",
+    "descripcion": "Calles blancas coloniales, museos y arquitectura; recorrido accesible en el centro.",
+    "img_url": "https://picsum.photos/seed/exp-giron/800/560"
+  },
+  {
+    "id": 12,
+    "nombre": "Casa de la Cultura del Socorro",
+    "modalidad": "cultural",
+    "municipio": "El Socorro",
+    "descripcion": "Memoria comunera y patrimonio histórico con material en formato accesible.",
+    "img_url": "https://picsum.photos/seed/exp-socorro/800/560"
+  },
+  {
+    "id": 13,
+    "nombre": "Tejedoras de Curití",
+    "modalidad": "comunitario",
+    "municipio": "Curití",
+    "descripcion": "Taller vivo del fique con artesanas locales; compra directa a la comunidad.",
+    "img_url": "https://picsum.photos/seed/exp-curiti/800/560"
+  },
+  {
+    "id": 14,
+    "nombre": "Fábrica de bocadillo veleño",
+    "modalidad": "comunitario",
+    "municipio": "Vélez",
+    "descripcion": "Proceso tradicional del bocadillo con emprendimientos familiares del municipio.",
+    "img_url": "https://picsum.photos/seed/exp-bocadillo/800/560"
+  },
+  {
+    "id": 15,
+    "nombre": "Centro de Convenciones Neomundo",
+    "modalidad": "mice",
+    "municipio": "Bucaramanga",
+    "descripcion": "Espacios para congresos, ferias y eventos corporativos, totalmente accesibles.",
+    "img_url": "https://picsum.photos/seed/exp-neomundo/800/560"
+  },
+  {
+    "id": 16,
+    "nombre": "Recinto ferial Cenfer",
+    "modalidad": "mice",
+    "municipio": "Bucaramanga",
+    "descripcion": "Grandes eventos, exposiciones y reuniones con logística e infraestructura inclusiva.",
+    "img_url": "https://picsum.photos/seed/exp-cenfer/800/560"
+  },
+  {
+    "id": 17,
+    "nombre": "Ferias y Fiestas de Bucaramanga",
+    "modalidad": "fiestas",
+    "municipio": "Bucaramanga",
+    "descripcion": "La Feria Bonita: música, danza y cultura del 11 al 20 de septiembre.",
+    "img_url": "https://picsum.photos/seed/exp-feriabonita/800/560"
+  },
+  {
+    "id": 18,
+    "nombre": "Festival del Bocadillo Veleño",
+    "modalidad": "fiestas",
+    "municipio": "Vélez",
+    "descripcion": "Tradición, guabina y torbellino en la capital folclórica de Santander.",
+    "img_url": "https://picsum.photos/seed/exp-festivalbocadillo/800/560"
+  }
+]
