@@ -1,6 +1,6 @@
 
 
-# 🏔️ Santander Touristic Platform & Metaverse
+# 🏔️ Santander Turismo Accesible e Imersiva
 
 Un portal web interactivo e innovador diseñado para promocionar el turismo en la región de Santander, Colombia. Este proyecto integra una amplia plataforma de planes turísticos con un entorno virtual inmersivo (metaverso) centrado en Bucaramanga.
 
