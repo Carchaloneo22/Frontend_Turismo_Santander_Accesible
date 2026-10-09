@@ -1,0 +1,197 @@
+/* ==========================================
+   NAVBAR COMPONENT - SANTANDER ACCESSIBLE
+   Alineación Perfecta (Izq - Centro - Der)
+   ========================================== */
+
+.navbar {
+  background: var(--surface, #ffffff);
+  border-bottom: 1px solid var(--border, #e2e8f0);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%; /* Ocupa todo el ancho disponible */
+  padding: 0 2rem; /* Separación limpia de los bordes izquierdo y derecho */
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Extrema Izquierda, Centro, Extrema Derecha */
+  gap: 1rem;
+}
+
+/* 1. EXTREMA IZQUIERDA: Logo Pegado */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-head, system-ui, sans-serif);
+  font-weight: 800;
+  font-size: clamp(0.9rem, 1.1vw, 1.05rem);
+  color: var(--brand-red, #d91a2a);
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  flex-shrink: 0; /* Nunca se encoge ni se desplaza */
+}
+
+.logoImg {
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.logoText {
+  white-space: nowrap;
+  font-weight: 800;
+}
+
+/* 2. CENTRO EXACTO: Enlaces de navegación */
+.links {
+  display: flex;
+  gap: clamp(14px, 2vw, 28px);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  font-family: var(--font-head, system-ui, sans-serif);
+  font-size: clamp(0.8rem, 0.9vw, 0.92rem);
+  font-weight: 600;
+  color: var(--text, #1e293b); /* <--- AHORA REACCIONA A MODO OSCURO */
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+  position: relative;
+  padding: 4px 0;
+}
+
+.link:hover,
+.active {
+  color: var(--brand-red, #d91a2a);
+}
+
+.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--brand-red, #d91a2a);
+  border-radius: 2px;
+}
+
+/* 3. EXTREMA DERECHA: Botones y Acciones */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.metaverso {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-head, system-ui, sans-serif);
+  font-size: clamp(0.75rem, 0.85vw, 0.88rem);
+  font-weight: 700;
+  color: var(--brand-green, #008744);
+  border: 2px solid var(--brand-green, #008744);
+  padding: 6px 14px;
+  border-radius: 50px;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.metaverso:hover {
+  background: var(--brand-green, #008744);
+  color: #ffffff;
+}
+
+.acceder {
+  background-color: var(--brand-red, #d91a2a) !important;
+  color: #ffffff !important;
+  border-radius: 50px !important;
+  font-weight: 700 !important;
+  font-size: clamp(0.78rem, 0.88vw, 0.9rem) !important;
+  padding: 8px 20px !important;
+  box-shadow: 0 4px 12px rgba(217, 26, 42, 0.25);
+}
+
+.acceder:hover {
+  background-color: var(--brand-red-hover, #b81221) !important;
+}
+
+.darkToggle {
+  background: var(--surface-card, transparent);
+  border: 2px solid var(--border, #cbd5e1);
+  color: var(--text, #475569);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.darkToggle:hover {
+  background: var(--brand-red, #d91a2a);
+  border-color: var(--brand-red, #d91a2a);
+  color: #ffffff;
+}
+
+/* Responsivo Móvil / Tablet */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: var(--text, #0f172a);
+}
+
+.mobile {
+  display: none;
+  flex-direction: column;
+  padding: 16px 24px 20px;
+  gap: 12px;
+  background: var(--surface, #ffffff);
+  border-top: 1px solid var(--border, #e2e8f0);
+}
+
+.mobileOpen {
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .links,
+  .acceder,
+  .metaverso {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logoText {
+    display: none;
+  }
+}
