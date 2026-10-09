@@ -1,0 +1,53 @@
+.gate {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #0b0f14;
+  color: #fff;
+}
+
+.box {
+  max-width: 48ch;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.titulo {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.desc {
+  color: #cfd8e3;
+  line-height: 1.6;
+}
+
+.acciones {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  background: #1a6b3c;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.volver {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
