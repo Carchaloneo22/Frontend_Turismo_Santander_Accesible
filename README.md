@@ -6,7 +6,7 @@ Un portal web interactivo e innovador diseñado para promocionar el turismo en l
 
 ---
 
-## 🚀 Enlaces del Proyecto
+## 🚀 Enlaces del Proyecto servidores de prueba inicial
 
 - **Planes Turísticos:** [dev.turismo-santander.desarrollos-pablo-carvajal.com/planes-turisticos](https://dev.turismo-santander.desarrollos-pablo-carvajal.com/planes-turisticos)
 - **Metaverso Bucaramanga:** [dev.turismo-santander.desarrollos-pablo-carvajal.com/metaverso/bucaramanga](https://dev.turismo-santander.desarrollos-pablo-carvajal.com/metaverso/bucaramanga)
@@ -81,11 +81,13 @@ Una experiencia inmersiva basada en WebGL / 3D que permite recorrer la "Ciudad B
 
 ---
 
-## 👤 Autor
+## 👤 Autores del proyecto
 
-- **Desarrollador:** Pablo Carvajal
-- **Sitio Web / Portfolio:** [desarrollos-pablo-carvajal.com](https://desarrollos-pablo-carvajal.com)
-
+Coordinador del proyecto Carlos Chaparro Lopez
+Desarrollador Senior Full Stack Pablo Andres Carvajal
+Desarrollador 1 Javier Armando Sanchez
+Desarrollador 2 Sergio Andres Vázquez
+Desarrollador 3 David Ramirez 
 
 
 # Santander Accesible — Frontend
