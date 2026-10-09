@@ -1,0 +1,47 @@
+/* src/components/layout/SignPlayer/SignPlayer.module.css */
+.player {
+  position: fixed;
+  /* top/left los inyecta el componente según el texto señalado (anchor). */
+  z-index: 300;
+  width: 220px;
+  /* Nunca más ancho que la pantalla: evita overflow-x en móvil. */
+  max-width: calc(100vw - 24px);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+/* Solo layout + fondo; el tamaño/color del texto lo dan los átomos Text/Button */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 0.5rem 0.4rem 0.9rem;
+  background: var(--purple);
+}
+
+.video {
+  width: 100%;
+  display: block;
+  background: #000;
+  /* Encuadre vertical (rostro + manos), típico del intérprete de LSC. */
+  aspect-ratio: 3 / 4;
+  /* No recortar la seña: siempre se ve completa (WCAG). */
+  object-fit: contain;
+}
+
+/* El <Text> del placeholder: solo centrado + alto (el estilo de texto lo da Text) */
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 3 / 4;
+  padding: 1.5rem 1rem;
+}
+
+/* El <Text> del caption: solo el espaciado */
+.caption {
+  padding: 0.6rem 0.9rem;
+}
