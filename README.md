@@ -83,11 +83,11 @@ Una experiencia inmersiva basada en WebGL / 3D que permite recorrer la "Ciudad B
 
 ## 👤 Autores del proyecto
 
-Coordinador del proyecto Carlos Chaparro Lopez
-Desarrollador Senior Full Stack Pablo Andres Carvajal
-Desarrollador 1 Javier Armando Sanchez
-Desarrollador 2 Sergio Andres Vázquez
-Desarrollador 3 David Ramirez 
+Coordinador del proyecto Carlos Chaparro Lopez/
+Desarrollador Senior Full Stack Pablo Andres Carvajal/
+Desarrollador 1 Javier Armando Sanchez/
+Desarrollador 2 Sergio Andres Vázquez/
+Desarrollador 3 David Ramirez/ 
 
 
 # Santander Accesible — Frontend
