@@ -1,0 +1,154 @@
+/* ===================================================
+   PALETA OFICIAL SANTANDER ACCESIBLE v4.0 (PARAMETRIZADA)
+   =================================================== */
+:root {
+  /* Marca Oficial (Paleta Institucional v4.0) */
+  --brand-red: #dc121a;
+  --brand-red-hover: #870b10;
+
+  --brand-green: #078930;
+  --brand-green-hover: #033b15;
+
+  --brand-yellow: #fcdd09;
+  --brand-dark: #0f172a;
+
+  /* Compatibilidad / Fallbacks */
+  --purple: var(--brand-red);
+  --purple-dark: var(--brand-red-hover);
+
+  /* Superficies y Texto - Modo Claro (Default) */
+  --surface: #ffffff;
+  --surface-card: #ffffff;
+  --text: #1a1a1a; /* Negro UI oficial */
+  --text-soft: #475569; /* Gris medio */
+  --border: #e2e8f0; /* Separadores */
+}
+
+/* ===================================================
+   MODO OSCURO - NEGRO UI (#1A1A1A) WCAG 2.1
+   =================================================== */
+[data-theme='dark'],
+html.dark {
+  --surface: #1a1a1a; /* Negro UI Oficial para evitar fatiga visual */
+  --surface-card: #262626; /* Fondo de tarjetas elevado */
+  --text: #ffffff; /* Texto principal en blanco puro */
+  --text-soft: #cbd5e1; /* Texto secundario claro */
+  --border: #3c3c3c; /* Bordes definidos para fondo oscuro */
+
+  --brand-red-hover: #eb7378;
+  --brand-green-hover: #5fe28a;
+}
+
+/* ===================================================
+   ALTO CONTRASTE (WCAG 2.1 AAA) - ADAPTATIVO AL TEMA
+   =================================================== */
+
+/* 1. Alto contraste sobre Modo Claro */
+:root[data-contrast='high'] {
+  --surface: #ffffff;
+  --surface-card: #ffffff;
+  --text: #000000;
+  --text-soft: #000000;
+  --border: #000000;
+  --brand-red: #870b10;
+  --brand-green: #033b15;
+}
+
+/* 2. Alto contraste sobre Modo Oscuro (Mantiene el fondo negro) */
+:root[data-theme='dark'][data-contrast='high'],
+html.dark[data-contrast='high'] {
+  --surface: #000000; /* Negro absoluto */
+  --surface-card: #121212; /* Tarjetas en negro profundo */
+  --text: #ffffff; /* Blanco puro */
+  --text-soft: #ffffff; /* Textos secundarios en blanco brillante */
+  --border: #ffffff; /* Bordes blancos de alto contraste */
+  --brand-red: #eb7378;
+  --brand-green: #5fe28a;
+}
+
+/* ===================================================
+   RESET Y GLOBALES DE ACCESIBILIDAD
+   =================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: calc(16px * var(--font-scale, 1));
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body, system-ui, sans-serif);
+  color: var(--text);
+  background: var(--surface);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--brand-red);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+[data-sign] {
+  cursor: help;
+  text-decoration: underline dotted var(--brand-green);
+  text-underline-offset: 3px;
+}
+
+.split-word {
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  overflow-wrap: break-word;
+}
+
+/* Clases de utilidad corporativas */
+.bg-brand-red {
+  background-color: var(--brand-red) !important;
+}
+.bg-brand-green {
+  background-color: var(--brand-green) !important;
+}
+.text-brand-red {
+  color: var(--brand-red) !important;
+}
+.text-brand-green {
+  color: var(--brand-green) !important;
+}
+.border-brand-yellow {
+  border-color: var(--brand-yellow) !important;
+}
