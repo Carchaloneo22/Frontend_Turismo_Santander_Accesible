@@ -1,0 +1,19 @@
+# Normaliza los fines de línea a LF en el repositorio (consistencia entre
+# Windows, macOS y Linux). Los archivos de texto se guardan con LF; los
+# binarios se marcan como tales para que git no intente convertirlos.
+* text=auto eol=lf
+
+# Binarios (nunca normalizar)
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.gif   binary
+*.ico   binary
+*.svg   text
+*.mp4   binary
+*.webm  binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary

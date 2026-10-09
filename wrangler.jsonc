@@ -1,0 +1,32 @@
+{
+  // Configuración de Cloudflare Workers para servir el frontend (sitio estático
+  // de Vite) como "Static Assets". No hay código de servidor: solo se sirven los
+  // archivos compilados en dist/.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "frontend-turismo-gobernacion-santander",
+  "compatibility_date": "2025-06-01",
+  "assets": {
+    // La carpeta que produce `npm run build`.
+    "directory": "./dist",
+    // Enrutamiento de SPA: cualquier ruta que no sea un archivo real devuelve
+    // index.html (para que React Router maneje /destinos, /metaverso, etc.).
+    "not_found_handling": "single-page-application"
+  },
+
+  // ── Entorno de DESARROLLO ──
+  // Un segundo Worker que se despliega desde la rama release/development.
+  //   · PRODUCCIÓN usa el nombre de arriba con  `npx wrangler deploy`
+  //   · DESARROLLO usa este entorno con         `npx wrangler deploy --env dev`
+  // El nombre del worker de dev COINCIDE con el del servicio de Cloudflare
+  // (frontend-turismo-santander) → config coherente, sin la advertencia ni la
+  // PR automática del bot.
+  "env": {
+    "dev": {
+      "name": "frontend-turismo-santander",
+      "assets": {
+        "directory": "./dist",
+        "not_found_handling": "single-page-application"
+      }
+    }
+  }
+}
