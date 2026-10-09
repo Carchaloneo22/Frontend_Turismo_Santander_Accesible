@@ -1,0 +1,35 @@
+/* Barra oficial GOV.CO (azul institucional del Estado colombiano). */
+.bar {
+  background: #3366cc;
+  display: flex;
+  align-items: center;
+  padding: 0.35rem 1.25rem;
+  min-height: 34px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: baseline;
+  text-decoration: none;
+  font-family: 'Montserrat', system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.gov {
+  color: #ffffff;
+}
+
+.co {
+  color: #ffe066; /* acento amarillo (marca país) */
+}
+
+/* Foco visible accesible sobre fondo azul. */
+.logo:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 2px;
+}
