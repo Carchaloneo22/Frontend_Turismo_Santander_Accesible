@@ -1,0 +1,149 @@
+/* Azul institucional de accesibilidad (estándar internacional). */
+.wrap {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  /* Por encima del aviso de cookies (1000/1001) y del modal de fiestas (1200):
+     los controles de accesibilidad deben estar SIEMPRE disponibles. */
+  z-index: 1500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Pestaña anclada al borde derecho (no un círculo suelto). */
+.fab {
+  width: 52px;
+  height: 60px;
+  border-radius: 16px 0 0 16px;
+  background: #0060af;
+  color: #fff;
+  border: 2px solid #fff;
+  border-right: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -5px 6px 20px rgba(0, 0, 0, 0.28);
+  transition:
+    background 0.2s,
+    width 0.15s;
+}
+
+.fab:hover {
+  background: #004a87;
+  width: 58px;
+}
+
+.fab:focus-visible {
+  outline: 3px solid #ffd166;
+  outline-offset: 2px;
+}
+
+.panel {
+  width: 280px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.title {
+  margin-bottom: 0.4rem;
+  color: #0060af;
+}
+
+.row,
+.rowStatic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.6rem 0.5rem;
+  border: none;
+  background: none;
+  border-radius: 8px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.rowStatic {
+  cursor: default;
+}
+
+.row:hover {
+  background: rgba(0, 96, 175, 0.08);
+}
+
+/* Switch en estado DESACTIVADO (OFF) - Alto contraste */
+.switch {
+  width: 44px;
+  height: 24px;
+  border-radius: 50px;
+  background: #cbd5e1; /* Gris medio con suficiente contraste */
+  border: 1px solid #94a3b8; /* Borde visible para delimitar la forma */
+  position: relative;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15); /* Sombra interior para darle profundidad */
+}
+
+/* Bolita interna del Switch */
+.switch::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+/* Switch en estado ACTIVADO (ON) */
+.switch.on {
+  background: #0060af;
+}
+
+.switch.on::after {
+  transform: translateX(20px);
+}
+
+.fontBtns {
+  display: flex;
+  gap: 4px;
+}
+
+.fontBtn {
+  min-width: 34px;
+  padding: 4px 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: var(--font-head);
+  font-weight: 600;
+  color: var(--text-soft);
+}
+
+/* Botón de fuente activo */
+.fontActive {
+  background: #0060af;
+  color: #fff;
+  border-color: #0060af;
+}
+
+@media (max-width: 560px) {
+  .panel {
+    width: 240px;
+  }
+}
