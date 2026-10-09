@@ -1,0 +1,163 @@
+/* Banner inferior */
+.banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--color-surface, #ffffff);
+  border-top: 3px solid var(--color-primary, #1a6b3c);
+  box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.18);
+  color: var(--color-text, #1a1a1a);
+}
+
+.bannerTexto {
+  flex: 1 1 320px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.bannerAcciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* Panel de configuración (modal) */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.panel {
+  width: min(560px, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  background: var(--color-surface, #ffffff);
+  color: var(--color-text, #1a1a1a);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.titulo {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: var(--color-primary, #1a6b3c);
+}
+
+.texto {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 1rem;
+}
+
+.categorias {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.categoria {
+  border: 1px solid var(--color-border, #d4dde4);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+.catLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.catLabel input[type='checkbox'] {
+  width: 1.3rem;
+  height: 1.3rem;
+  flex-shrink: 0;
+  accent-color: var(--color-primary, #1a6b3c);
+  cursor: pointer;
+}
+
+.categoria:first-child {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.catInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.catDesc {
+  font-size: 0.82rem;
+  color: var(--color-text-muted, #4a4a4a);
+}
+
+.siempre {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-primary, #1a6b3c);
+  white-space: nowrap;
+}
+
+.acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.enlace {
+  color: var(--color-primary, #1a6b3c);
+  text-decoration: underline;
+}
+
+.btnPrimary,
+.btnGhost {
+  padding: 0.6rem 1.1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: 2px solid var(--color-primary, #1a6b3c);
+}
+
+.btnPrimary {
+  background: var(--color-primary, #1a6b3c);
+  color: #fff;
+}
+
+.btnGhost {
+  background: transparent;
+  color: var(--color-primary, #1a6b3c);
+}
+
+@media (max-width: 560px) {
+  .bannerAcciones {
+    width: 100%;
+  }
+  .bannerAcciones .btnPrimary,
+  .bannerAcciones .btnGhost {
+    flex: 1 1 auto;
+  }
+}
