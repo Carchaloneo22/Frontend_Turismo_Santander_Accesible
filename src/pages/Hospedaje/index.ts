@@ -1,0 +1,1 @@
+export { HospePage } from './HospePage'
